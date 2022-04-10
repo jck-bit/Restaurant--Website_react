@@ -1,6 +1,6 @@
 import styled from "styled-components";
-
 import imgBg from "../../images/pizza-3.jpg";
+
 export const HeroContainer = styled.div`
   background:linear-gradient(to right, rgba(0,0,0,0.7),
   rgba(0,0,0,0.1)), 
@@ -28,7 +28,7 @@ export const HeroItems = styled.div`
  color:white;
  text-transform:uppercase;
  line-height:1.5;
- font-weight:bold;
+ font-weight:bold; 
 
  @media screen and (max-width:650px){
      width:100%;
@@ -52,7 +52,7 @@ export const HeroBtn = styled.button`
   background:#e31837;
   color:white;
   transition:all 0.3s ease-in-out;
-  
+
   &:hover{
       background:#ffc500;
       transition: 0.3s ease-out;
