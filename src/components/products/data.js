@@ -61,5 +61,3 @@ import sweet1 from '../../images/sweet-1.jpg';
     },
  
 ]
-
-
